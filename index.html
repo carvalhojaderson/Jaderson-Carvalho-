@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jáderson Carvalho | Articulador de Ecossistemas de Inovação</title>
+    <meta name="description" content="Articulador e gestor de ecossistemas de inovação com ênfase em inovação social e cultural. Conector de redes colaborativas para impacto sustentável.">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        body { background-color: #0a0a0a; color: #f5f5f5; font-family: 'Inter', sans-serif; }
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(135deg, #3b82f6 0%, #9966CC 50%, #ef4444 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .photo-frame {
+            position: relative;
+            border-radius: 50%;
+            padding: 4px;
+            background: linear-gradient(135deg, #0F52BA, #9966CC, #9B111E);
+        }
+        .photo-frame img {
+            border-radius: 50%;
+            border: 4px solid #0a0a0a;
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .card-luxury {
+            background: linear-gradient(145deg, #1a1a1a 0%, #111111 100%);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.4s ease;
+        }
+        .card-luxury:hover {
+            transform: translateY(-5px);
+            border-color: rgba(15, 82, 186, 0.3);
+            box-shadow: 0 20px 40px -15px rgba(15, 82, 186, 0.3);
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #0F52BA 0%, #1e40af 100%);
+            box-shadow: 0 4px 20px rgba(15, 82, 186, 0.4);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            box-shadow: 0 8px 30px rgba(15, 82, 186, 0.6);
+            transform: translateY(-2px);
+        }
+        .timeline-line { background: linear-gradient(to bottom, #0F52BA, #9966CC, #9B111E); }
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: #0a0a0a; }
+        ::-webkit-scrollbar-thumb { background: linear-gradient(180deg, #0F52BA 0%, #9966CC 100%); border-radius: 5px; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed w-full z-50 top-0 bg-black/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <span class="font-poppins font-bold text-2xl gradient-text">JC</span>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#sobre" class="text-gray-300 hover:text-white text-sm font-medium transition-colors">Sobre</a>
+                    <a href="#projetos" class="text-gray-300 hover:text-white text-sm font-medium transition-colors">Projetos</a>
+                    <a href="#educacao" class="text-gray-300 hover:text-white text-sm font-medium transition-colors">Educação</a>
+                    <a href="#contato" class="text-gray-300 hover:text-white text-sm font-medium transition-colors">Contato</a>
+                </div>
+                <a href="https://br.linkedin.com/in/jaderson-carvalho" target="_blank" class="btn-primary text-white px-6 py-2 rounded-full text-sm font-medium">LinkedIn</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="min-h-screen flex items-center justify-center pt-20" style="background: radial-gradient(circle at 20% 50%, rgba(15,82,186,0.15) 0%, transparent 50%);">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                <div class="text-left">
+                    <div class="inline-block px-4 py-2 bg-white/5 border border-white/10 rounded-full mb-6">
+                        <span class="text-blue-400 font-semibold text-sm tracking-wider uppercase">Innovation Ecosystem Architect</span>
+                    </div>
+                    <h1 class="font-poppins font-bold text-5xl md:text-6xl lg:text-7xl text-white mb-6 tracking-tight">
+                        Jáderson<br>Carvalho
+                    </h1>
+                    <p class="font-poppins font-semibold text-xl md:text-2xl text-blue-400 mb-4">Articulador de Ecossistemas de Inovação</p>
+                    <p class="text-lg text-gray-400 mb-8 leading-relaxed max-w-xl">
+                        Conector e catalisador de redes colaborativas, unindo empreendedores, instituições, comunidades, artistas e governos para cocriar soluções de impacto sustentável.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://br.linkedin.com/in/jaderson-carvalho" target="_blank" class="btn-primary text-white px-8 py-4 rounded-full font-semibold inline-flex items-center gap-2">
+                            Conectar no LinkedIn
+                        </a>
+                        <a href="#projetos" class="px-8 py-4 rounded-full font-semibold text-white border border-white/20 hover:border-blue-400 transition-all">Ver Projetos</a>
+                    </div>
+                </div>
+                
+                <div class="flex justify-center lg:justify-end">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full blur-3xl opacity-30"></div>
+                        <div class="photo-frame w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 relative">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=800&fit=crop" alt="Jáderson Carvalho" class="w-full h-full object-cover">
+                        </div>
+                        <div class="absolute -bottom-4 -left-4 bg-gray-900 border border-white/10 px-4 py-2 rounded-full shadow-xl">
+                            <span class="text-sm font-semibold text-blue-400">MSc. UTFPR</span>
+                        </div>
+                        <div class="absolute -top-4 -right-4 bg-gray-900 border border-white/10 px-4 py-2 rounded-full shadow-xl">
+                            <span class="text-sm font-semibold text-purple-400">CEO Empower</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-24 md:py-32 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <div class="inline-block px-4 py-2 bg-blue-500/10 border border-blue-500/20 rounded-full mb-6">
+                        <span class="text-blue-400 font-semibold text-sm tracking-wider uppercase">Posicionamento</span>
+                    </div>
+                    <h2 class="font-poppins font-bold text-4xl md:text-5xl text-white mb-6">
+                        Articulando Ecossistemas de <span class="gradient-text">Impacto Real</span>
+                    </h2>
+                    <div class="space-y-4 text-gray-400 leading-relaxed">
+                        <p>Atuo como <strong class="text-white">articulador e gestor de ecossistemas de inovação</strong>, com ênfase em inovação social e cultural.</p>
+                        <p>Como <strong class="text-purple-400">CEO da Empower Minds</strong>, lidero ecossistema de <strong class="text-white">tecnologia social junto ao poder público</strong>.</p>
+                        <p>Formação: <strong class="text-blue-400">Mestrado UTFPR/CAPES</strong>, Licenciatura Química, Designer Instrucional.</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="card-luxury p-6 rounded-2xl border-l-4 border-blue-500">
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-blue-500/10 rounded-lg text-blue-400 text-2xl">⚡</div>
+                            <div>
+                                <h3 class="font-semibold text-lg text-white mb-1">Gestor de Ecossistemas</h3>
+                                <p class="text-sm text-gray-400">Projetos, novos negócios, inovação</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-luxury p-6 rounded-2xl border-l-4 border-purple-500">
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-purple-500/10 rounded-lg text-purple-400 text-2xl">🏛️</div>
+                            <div>
+                                <h3 class="font-semibold text-lg text-white mb-1">CEO & Articulador Institucional</h3>
+                                <p class="text-sm text-gray-400">Empower Minds: GovTech e poder público</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-luxury p-6 rounded-2xl border-l-4 border-red-500">
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-red-500/10 rounded-lg text-red-400 text-2xl">💼</div>
+                            <div>
+                                <h3 class="font-semibold text-lg text-white mb-1">Consultor & Diretor</h3>
+                                <p class="text-sm text-gray-400">Febraec - Diretoria 2026</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="card-luxury p-6 rounded-2xl border-l-4 border-purple-500">
+                        <div class="flex items-start gap-4">
+                            <div class="p-3 bg-purple-500/10 rounded-lg text-purple-400 text-2xl">🔬</div>
+                            <div>
+                                <h3 class="font-semibold text-lg text-white mb-1">Gestor de Projetos</h3>
+                                <p class="text-sm text-gray-400">ONG Rede Afro</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="py-24 md:py-32 bg-black">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="font-poppins font-bold text-4xl md:text-5xl text-white mb-4">Projetos em <span class="gradient-text">Destaque</span></h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="card-luxury p-6 rounded-xl">
+                    <div class="text-blue-400 text-3xl mb-3">⚡</div>
+                    <h3 class="font-bold text-white mb-2">Ecossistema Disruptivos</h3>
+                    <p class="text-sm text-gray-400 mb-4">Inteligência Cristal, incubação equity-free. Parcerias: ESPM, PUC Angels, UNICAMP.</p>
+                    <a href="https://disruptivos.ai/ecossistema" target="_blank" class="text-blue-400 text-sm hover:text-white">Acessar →</a>
+                </div>
+                
+                <div class="card-luxury p-6 rounded-xl">
+                    <div class="text-purple-400 text-3xl mb-3">🎨</div>
+                    <h3 class="font-bold text-white mb-2">Disruptivos Culturais</h3>
+                    <p class="text-sm text-gray-400 mb-4">Incubação cultural, Brasil Criativo, COP30/FreeZone.</p>
+                    <a href="https://disruptivos.ai/brasil-criativo" target="_blank" class="text-purple-400 text-sm hover:text-white">Explorar →</a>
+                </div>
+                
+                <div class="card-luxury p-6 rounded-xl">
+                    <div class="text-red-400 text-3xl mb-3">🏛️</div>
+                    <div class="flex gap-2 mb-2">
+                        <span class="text-xs bg-red-500/20 text-red-400 px-2 py-0.5 rounded">GovTech</span>
+                    </div>
+                    <h3 class="font-bold text-white mb-2">Empower Minds</h3>
+                    <p class="text-sm text-gray-400 mb-4">Tecnologia social com poder público, captação de recursos.</p>
+                </div>
+                
+                <div class="card-luxury p-6 rounded-xl">
+                    <div class="text-blue-400 text-3xl mb-3">💼</div>
+                    <h3 class="font-bold text-white mb-2">Febraec</h3>
+                    <p class="text-sm text-gray-400 mb-4">Federação Brasileira de Consultoria. Diretoria 2026.</p>
+                    <a href="https://febraec.org.br/" target="_blank" class="text-blue-400 text-sm hover:text-white">Visitar →</a>
+                </div>
+                
+                <div class="card-luxury p-6 rounded-xl">
+                    <div class="text-purple-400 text-3xl mb-3">🤝</div>
+                    <h3 class="font-bold text-white mb-2">ONG Rede Afro</h3>
+                    <p class="text-sm text-gray-400 mb-4">Projetos de inovação social com saberes ancestrais.</p>
+                </div>
+                
+                <div class="card-luxury p-6 rounded-xl">
+                    <div class="text-red-400 text-3xl mb-3">🛍️</div>
+                    <h3 class="font-bold text-white mb-2">Marketplace de Ideias</h3>
+                    <p class="text-sm text-gray-400 mb-4">Showcase de projetos disruptivos.</p>
+                    <a href="https://www.marketplacedeideias.com" target="_blank" class="text-red-400 text-sm hover:text-white">Acessar →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="educacao" class="py-24 md:py-32 bg-gray-900">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="font-poppins font-bold text-4xl text-white mb-4">Formação <span class="gradient-text">Acadêmica</span></h2>
+            </div>
+            
+            <div class="space-y-8">
+                <div class="flex gap-6 items-start">
+                    <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center flex-shrink-0 text-2xl">🎓</div>
+                    <div class="card-luxury p-6 rounded-xl flex-1">
+                        <span class="text-xs font-bold text-blue-400 bg-blue-500/10 px-2 py-1 rounded">Mestrado</span>
+                        <h3 class="font-bold text-white text-lg mt-2">Ciência e Tecnologia Ambiental</h3>
+                        <p class="text-blue-400 text-sm">UTFPR - Bolsa CAPES</p>
+                        <p class="text-gray-400 text-sm mt-2">Pesquisa aplicada e inovação tecnológica.</p>
+                    </div>
+                </div>
+                
+                <div class="flex gap-6 items-start">
+                    <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center flex-shrink-0 text-2xl">🧪</div>
+                    <div class="card-luxury p-6 rounded-xl flex-1">
+                        <span class="text-xs font-bold text-purple-400 bg-purple-500/10 px-2 py-1 rounded">Licenciatura</span>
+                        <h3 class="font-bold text-white text-lg mt-2">Química</h3>
+                        <p class="text-purple-400 text-sm">Último período</p>
+                        <p class="text-gray-400 text-sm mt-2">Especialista Técnico em Química.</p>
+                    </div>
+                </div>
+                
+                <div class="flex gap-6 items-start">
+                    <div class="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center flex-shrink-0 text-2xl">📚</div>
+                    <div class="card-luxury p-6 rounded-xl flex-1">
+                        <span class="text-xs font-bold text-red-400 bg-red-500/10 px-2 py-1 rounded">Especializações</span>
+                        <ul class="text-gray-400 text-sm mt-2 space-y-1">
+                            <li>• Designer Instrucional</li>
+                            <li>• Gestão da Qualidade</li>
+                            <li>• Gestão da Produção Industrial</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="py-24 md:py-32 bg-black text-center">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="font-poppins font-bold text-4xl text-white mb-6">Vamos <span class="gradient-text">Cocriar</span> Impacto?</h2>
+            <p class="text-gray-400 text-lg mb-12">Aberto a parcerias estratégicas e projetos de inovação.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://br.linkedin.com/in/jaderson-carvalho" target="_blank" class="btn-primary text-white px-8 py-4 rounded-full font-semibold inline-flex items-center justify-center gap-2">
+                    LinkedIn Profissional
+                </a>
+                <a href="mailto:carvalhojaderson@gmail.com" class="px-8 py-4 rounded-full font-semibold text-white border border-white/20 hover:border-purple-400 transition-all inline-flex items-center justify-center gap-2">
+                    carvalhojaderson@gmail.com
+                </a>
+            </div>
+            
+            <p class="text-gray-600 text-sm mt-16 pt-8 border-t border-white/10">© 2026 Jáderson Carvalho. Todos os direitos reservados.</p>
+        </div>
+    </section>
+
+</body>
+</html>
